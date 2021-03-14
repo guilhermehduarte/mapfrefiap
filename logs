@@ -1,0 +1,54 @@
+A - IDENTIFICAR
+
+Quais recursos devem ter seu log coletado e monitorado.
+
+B - COLETAR E AGREGAR REGISTROS
+
+Centralizar e unificar todos os dados em um único local para facilitar o acesso e o consumo
+
+Logstash (um pipeline de processamento de dados do servidor que insere dados de várias fontes simultaneamente, transforma e envia para um “stash” ou outras saídas),.
+
+Fluentd (arquitetura conectável para coletar e rotear registra-se em big data, data warehouses, sistemas de notificação e muito mais).
+
+Syslog-ng, que também coleta logs de qualquer fonte, processa-os em tempo real e os entrega a uma grande variedade de destinos. Você também pode se inscrever para uma conta gratuita de avaliação de gerenciamento de log.
+
+Entre outros.
+
+C - ARMAZENAR
+
+A retenção de dados de log é importante para a solução de problemas em tempo real e a análise de incidentes e eventos históricos. (Armazenar com Cloud Storage).
+
+Apache Flume,.
+
+Lgalyze.
+
+NXLog.
+
+Entre outros.
+
+D - PESQUISAR
+
+Indexar e oferecer pesquisa dos registros armazenados.
+
+Kibana (Elasticsearch).
+
+Entre outros.
+
+E - ALERTAR
+A notificação em tempo real e os alertas quando os erros são encontrados nos seus registros (por exemplo, erros 404, 408 tempo limite de solicitação …) podem ajudar a identificar os primeiros sinais de problemas, antes que os usuários liguem para o suporte técnico. 
+
+Graylog. 
+
+Amazon CloudWatch.
+
+Entre outros.
+
+F - VISUALIZAÇÃO E ANALISE
+A solução de problemas pode ser simplificada com recursos visuais para ajudá-lo a localizar a causa raiz dos problemas mais rapidamente.
+
+Kibana (Elasticsearch).
+
+Entre outros.
+
+G - EXTRAÇÃO DE INDICADORES
+Mantenha todos informados e alinhados e distribua periodicamente relatórios centrados em log.
